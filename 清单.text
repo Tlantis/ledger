@@ -1,0 +1,10 @@
+1.导航栏样式 : /pages.json
+	navigationBar***
+
+2.创建四个页面 : /pages/; /pages.json
+	
+3.配置tabBar : /pages.json
+
+4.获取轮播图数据 : / index.vue
+
+5.封装request : api.js

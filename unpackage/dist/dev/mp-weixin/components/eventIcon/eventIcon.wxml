@@ -1,0 +1,1 @@
+<view><view class="dots" style="{{'background-color:'+(icon.color)+';'}}"><image class=".dotsImage" src="{{src}}" mode></image></view></view>

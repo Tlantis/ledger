@@ -1,0 +1,60 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/cart/cart"
+		},
+		{
+			"path": "pages/member/member"
+		},
+		{
+			"path": "pages/news/news"
+		},
+		{
+			"path": "pages/addLedger/addLedger",
+			"style": {
+				"navigationBarTitleText": "add",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}
+	],
+	"globalStyle": {
+		"backgroundColor": "#F8F8F8",
+		"navigationBarTitleText": "记事本",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#CCCCCC"
+	},
+	"tabBar": {
+		"selectedColor":"#CCCCCC",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/icon/home.png",
+				"selectedIconPath":"static/icon/home-fill.png"
+			},
+			{
+				"text": "咨询",
+				"pagePath":"pages/news/news",
+				"iconPath":"static/icon/logistic-logo.png",
+				"selectedIconPath":"static/icon/logistic-logo-fill.png"
+			},
+			{
+				"text": "购物车",
+				"pagePath":"pages/cart/cart",
+				"iconPath":"static/icon/cart-Empty.png",
+				"selectedIconPath":"static/icon/cart-Empty-fill.png"
+			},
+			{
+				"text": "我",
+				"pagePath":"pages/member/member",
+				"iconPath":"static/icon/account.png",
+				"selectedIconPath":"static/icon/account-fill.png"
+			}
+		]
+	}
+}

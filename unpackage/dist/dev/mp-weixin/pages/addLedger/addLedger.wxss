@@ -1,0 +1,142 @@
+page {
+  font-family: 'KaiTi';
+  /* outIn */
+  /* money */
+  /* icon */
+  /* console */
+}
+page .dots {
+  margin: 0 20rpx;
+  height: 60rpx;
+  width: 60rpx;
+  border-radius: 50%;
+  background-color: #556B2F;
+}
+page .dots image {
+  /* transform: translate(0,-25%); */
+  height: 100%;
+  width: 100%;
+}
+page .outInButton {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+page .outInButton .outIn {
+  padding: 20rpx;
+  font-weight: 900;
+}
+page .outInButton .outInChoose {
+  color: #ffaa00;
+}
+page .money {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  height: 70rpx;
+  background-color: #CCC;
+  font-weight: 900;
+  color: #FFF;
+}
+page .money .moneyIcon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+page .money .text {
+  display: inline-block;
+}
+page .money .amountNum {
+  margin-right: 20rpx;
+  line-height: 70rpx;
+}
+page .icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  /* justify-content:space-evenly; */
+}
+page .icon .iconChild {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin: 20rpx 12rpx;
+}
+page .icon .iconChild .iconText {
+  text-align: center;
+}
+page .iconHidden {
+  display: none;
+}
+page .console {
+  position: absolute;
+  bottom: 0;
+  background-color: #ebebeb;
+}
+page .console .consoleChild {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  /* 允许换行 */
+}
+page .console .consoleChild view {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 盒子模型 */
+  width: 187.5rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  /* 在水平中线中间 */
+}
+page .console .consoleChild .numButton {
+  border-left: #dddddd 1rpx solid;
+  border-bottom: #dddddd 1rpx solid;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 50rpx;
+}
+page .console .consoleChild .addLedgerButton {
+  border-left: #dddddd 1rpx solid;
+  width: 375rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 50rpx;
+}
+page .console .otherButton {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  /* 在水平中线的俩边 */
+  background-color: #f4f4f4;
+}
+page .console .otherButton view {
+  height: 70rpx;
+  line-height: 70rpx;
+}
+

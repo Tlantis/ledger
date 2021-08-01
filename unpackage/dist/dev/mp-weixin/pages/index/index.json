@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "event-icon": "/components/eventIcon/eventIcon"
+  }
+}

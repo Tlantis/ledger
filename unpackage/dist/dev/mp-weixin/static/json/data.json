@@ -1,0 +1,32 @@
+{
+	"20210727":{
+				"data":[
+					{"text":"娱乐","amount":"200.00","outIn":"out","icon":"yule","color":"#FFA500"},
+					{"text":"用餐","amount":"100.00","outIn":"out","icon":"yongcan","color":"#64C8C8"},
+					{"text":"学习","amount":"100.00","outIn":"out","icon":"xuexi","color":"#32CD32"},
+					{"text":"日用品","amount":"100.00","outIn":"out","icon":"riyongpin","color":"#2F4F4F"},
+					{"text":"工资","amount":"3000.00","outIn":"in","icon":"gongzi","color":"#FFA500"}
+				],
+				"total":3000
+	},
+	"20210725":{
+				"data":[
+					{"text":"娱乐","amount":"200.00","outIn":"out","icon":"yule","color":"#FFA500"},
+					{"text":"用餐","amount":"100.00","outIn":"out","icon":"yongcan","color":"#64C8C8"},
+					{"text":"学习","amount":"100.00","outIn":"out","icon":"xuexi","color":"#32CD32"},
+					{"text":"日用品","amount":"100.00","outIn":"out","icon":"riyongpin","color":"#2F4F4F"},
+					{"text":"工资","amount":"3000.00","outIn":"in","icon":"gongzi","color":"#FFA500"}
+				],
+				"total":3000
+	},
+	"20210709":{
+				"data":[
+					{"text":"娱乐","amount":"200.00","outIn":"out","icon":"yule","color":"#FFA500"},
+					{"text":"用餐","amount":"100.00","outIn":"out","icon":"yongcan","color":"#64C8C8"},
+					{"text":"学习","amount":"100.00","outIn":"out","icon":"xuexi","color":"#32CD32"},
+					{"text":"日用品","amount":"100.00","outIn":"out","icon":"riyongpin","color":"#2F4F4F"},
+					{"text":"工资","amount":"3000.00","outIn":"in","icon":"gongzi","color":"#FFA500"}
+				],
+				"total":3000
+	},
+}

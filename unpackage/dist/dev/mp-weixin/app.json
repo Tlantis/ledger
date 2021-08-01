@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/member/member",
+    "pages/news/news",
+    "pages/addLedger/addLedger"
+  ],
+  "subPackages": [],
+  "window": {
+    "backgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "记事本",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#CCCCCC"
+  },
+  "tabBar": {
+    "selectedColor": "#CCCCCC",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-fill.png"
+      },
+      {
+        "text": "咨询",
+        "pagePath": "pages/news/news",
+        "iconPath": "static/icon/logistic-logo.png",
+        "selectedIconPath": "static/icon/logistic-logo-fill.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/icon/cart-Empty.png",
+        "selectedIconPath": "static/icon/cart-Empty-fill.png"
+      },
+      {
+        "text": "我",
+        "pagePath": "pages/member/member",
+        "iconPath": "static/icon/account.png",
+        "selectedIconPath": "static/icon/account-fill.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

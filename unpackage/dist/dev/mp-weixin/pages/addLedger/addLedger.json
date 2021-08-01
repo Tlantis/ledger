@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "add",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "event-icon": "/components/eventIcon/eventIcon",
+    "uni-calendar": "/uni_modules/uni-calendar/components/uni-calendar/uni-calendar"
+  }
+}
